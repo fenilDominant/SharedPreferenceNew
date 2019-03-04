@@ -1,0 +1,8 @@
+PrefUtil.putstringPref("UserId", "1"), context);
+PrefUtil.getstringPref("UserId", context);
+
+
+
+PrefUtil.putbooleanPref(getString(R.string.pref_isBackPress), true, context);
+PrefUtil.getbooleanPref(getString(R.string.pref_isBackPress), context);
+PrefUtil.removeBoolean(getString(R.string.pref_isBackPress), context);
